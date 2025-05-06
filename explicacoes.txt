@@ -1,0 +1,5 @@
+•	express: Framework para criar o servidor e as rotas da API.
+•	mongoose: Biblioteca para manipular o MongoDB usando modelos (schemas).
+•	dotenv: Permite ler variáveis de ambiente do arquivo .env.
+•	multer: Middleware para lidar com upload de arquivos (como imagens).
+•	cors: Permite o acesso à API por aplicações front-end em outros domínios.
