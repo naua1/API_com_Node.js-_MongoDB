@@ -9,8 +9,8 @@ mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('MongoDB conectado'))
   .catch(err => console.error('Erro ao conectar no MongoDB:', err));
 
-const contatoRoutes = require('../API_com_Node.js-_MongoDB/api-mongo-sem-auth/routes/contatoRoutes');
-const uploadRoutes = require('../API_com_Node.js-_MongoDB/api-mongo-sem-auth/routes/uploadRoutes');
+const contatoRoutes = require('./routes/contatoRoutes');
+const uploadRoutes = require('./routes/uploadRoutes');
 
 app.use(express.json());
 app.use(cors());
